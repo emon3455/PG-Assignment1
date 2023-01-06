@@ -113,8 +113,40 @@
 .fail{
     list-style: none;
 }
-
 /* failure start */
+
+
+/* plan start */
+
+.plan-header{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: 35px;
+    text-align: center;
+}
+.plans{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.plan{
+    text-align: center;
+}
+
+.plan-pic{
+    width: 70px;
+}
+.plan-title{
+    font-size: 18px;
+}
+.plan-desc{
+    color: #737272;
+    font-weight: 500;
+}
+/* plan end */
+
+
 
 
 /* ------------main section end--------------- */
