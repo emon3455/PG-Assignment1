@@ -46,5 +46,47 @@
     color: #444343;
     margin-bottom: 20px;
 }
-
 /* header end */
+
+/* ------------main section start--------------- */
+
+.main{
+    margin: 20px 200px;
+}
+
+/* achivement start */
+
+.achivement{
+    display: flex;
+    gap: 30px;
+}
+
+.achivement-img{
+    width: 500px;
+}
+
+.tik{
+    color: greenyellow;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.achivement-info .title{
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 20px 20px 20px 0;
+}
+
+.achivement-info .description{
+    margin: 10px 0;
+    color: #444343;
+}
+
+.achive{
+    list-style: none;
+}
+/* achivement start */
+
+
+
+/* ------------main section end--------------- */
