@@ -15,6 +15,28 @@
     border-radius: 5px;
 }
 
+.tik{
+    color: greenyellow;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+
+.title{
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 20px 20px 20px 0;
+}
+
+.description{
+    margin: 10px 0;
+    color: #444343;
+}
+
+.list-container{
+    list-style: none;
+}
+
 /* Common style end */
 
 
@@ -51,7 +73,7 @@
 /* ------------main section start--------------- */
 
 .main{
-    margin: 20px 200px;
+    margin: 10px 200px;
 }
 
 /* achivement start */
@@ -59,34 +81,40 @@
 .achivement{
     display: flex;
     gap: 30px;
+    margin-bottom: 30px;
 }
 
 .achivement-img{
     width: 500px;
 }
-
-.tik{
-    color: greenyellow;
-    font-size: 19px;
-    font-weight: 800;
-}
-
-.achivement-info .title{
-    margin-top: 30px;
-    font-size: 30px;
-    padding: 20px 20px 20px 0;
-}
-
-.achivement-info .description{
-    margin: 10px 0;
-    color: #444343;
-}
-
-.achive{
-    list-style: none;
-}
 /* achivement start */
 
+
+/* failure start */
+.failure{
+    display: flex;
+    gap: 70px;
+    margin-bottom: 30px;
+}
+
+.fail-img{
+    width: 400px;
+}
+
+.failure-info .title{
+    margin: 130px 20px 10px 0;
+    padding: 20px 180px 20px 0;
+}
+
+.failure-info .description{
+    padding: 0 20px 0 0;
+}
+
+.fail{
+    list-style: none;
+}
+
+/* failure start */
 
 
 /* ------------main section end--------------- */
